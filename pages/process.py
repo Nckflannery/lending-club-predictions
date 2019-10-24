@@ -16,8 +16,6 @@ column1 = dbc.Col(
 
             """
         ),
-        html.Img(src='assets/RFR_MAE.png', className='img-fluid'),
-        html.Img(src='assets/LGBM_MAE.png', className='img-fluid'),
     ],
 )
 
