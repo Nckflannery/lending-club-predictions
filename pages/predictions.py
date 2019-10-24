@@ -10,7 +10,7 @@ from joblib import load
 
 from app import app
 
-pipeline = load('assets\\lgbm_pipeline.joblib')
+pipeline = load('assets/lgbm_pipeline.joblib')
 
 column1 = dbc.Col(
     [
