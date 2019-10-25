@@ -80,7 +80,7 @@ row5 = dbc.Col([
 
 row6 = dcc.Markdown(
     '''
-    ## Issues With Dropping 'Back End' Features
+    ## Issues With Dropping Hidden _'Back End'_ Features
     ---
     ''',
     style={'textAlign': 'center'}
