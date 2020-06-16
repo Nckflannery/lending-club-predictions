@@ -147,8 +147,8 @@ column1 = dbc.Col(
         dcc.RadioItems(
             id = 'term',
             options = [
-                {'label': '36 Months', 'value': 1},
-                {'label': '60 Months', 'value': 2}
+                {'label': ' 36 Months', 'value': 1},
+                {'label': ' 60 Months', 'value': 2}
             ],
             value=2,
             labelStyle = {'margin-right': '20px'},
@@ -170,7 +170,7 @@ column2 = dbc.Col(
             id='ROI_Gauge',
             color={'gradient':True, 'ranges':{'red':[-100,20],'orange':[20,40],"yellow":[40,60],"green":[60,100]}},
             showCurrentValue=True,
-            units='Cents per Dollar Invested',
+            units='Percent Return',
             value=0,
             min=-100,
             max=100,
